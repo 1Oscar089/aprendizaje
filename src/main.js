@@ -1,11 +1,20 @@
-import { vistaInicio } from "./secciones/inicio";
+import { header } from "./layout/js/header.js";
+import { sidebar } from "./layout/js/sidebar.js";
+import { footer } from "./layout/js/footer.js";
+import { content } from "./layout/js/content.js";
 
-const contenedor = document.getElementById('app');
+header();
+sidebar();
+content();
+footer();
 
-const rutas = {
+const contenedor = '';
+
+
+/*const rutas = {
     'inicio': vistaInicio,
     /*'Unidad 1: Fundamentos, Sintaxis e Integración': vistaUnidad1*/
-};
+/*};
 
 export function navegar(nombreVista) {
     const vista = rutas[nombreVista] || vistaInicio;
@@ -18,3 +27,4 @@ export function navegar(nombreVista) {
 
 const vistaGuardada = localStorage.getItem('vistaActual') || 'inicio';
 navegar(vistaGuardada);
+*/

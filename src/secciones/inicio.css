@@ -1,0 +1,17 @@
+ul{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    display: inline;
+    color: black;
+    min-width: 15rem;
+    max-width: 15rem;
+    background-color: #00c3ff;
+    border-bottom: 1px solid #00ffff;
+    cursor: pointer;
+    padding: 1rem;
+}
+li:hover{
+    background-color: #00ffff;
+}
