@@ -7,6 +7,7 @@ export function vistaInicio(contenedor){
   `;
   contenedor.innerHTML = html;
 }
+
 /*const listado = [
   { nombre: 'CSS' },
   { nombre: 'HTML' },

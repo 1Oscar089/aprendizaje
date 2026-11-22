@@ -34,11 +34,38 @@ header {
   font-size: 25px;
   font-weight: bold;
 }
+header span{
+  cursor: pointer;
+}
 aside {
   grid-area: aside;
-  padding: 20px;
   background-color: #ffffff;
   border-right: 1px solid #cbd5e1;
+}
+
+li{
+  list-style: none;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  height: 45px;
+  display: flex;
+  align-items: center;
+
+}
+li:hover{
+  background-color: #5692f3;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.activo{
+  background-color: #5692f3;
+  padding: 10px 30px;
+  font-size: 15px;
+  color: #ffffff;
 }
 
 main {
@@ -51,6 +78,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #1e293b;
+  background-color: #0142ac;
   color: white;
 }
