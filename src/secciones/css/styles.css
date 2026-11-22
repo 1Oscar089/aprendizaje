@@ -1,0 +1,36 @@
+dialog[open] {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0; /* El padding irá en .modal-body */
+  max-width: 90vw;
+  max-height: 85vh;
+  overflow: hidden; /* Evita scroll en el dialog entero para que la X no se mueva */
+}
+
+.btn-cerrar {
+  position: sticky;
+  top: 0.75rem;
+  align-self: flex-end;
+  margin-right: 0.75rem;
+  z-index: 10;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1.5rem 1.5rem;
+  overflow-y: auto; /* Aquí ocurre el scroll vertical */
+}
+
+pre.shiki {
+  max-height: 50vh;
+  overflow: auto;
+  max-width: 100%;
+}
