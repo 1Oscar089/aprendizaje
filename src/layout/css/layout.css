@@ -55,14 +55,14 @@ li{
 
 }
 li:hover{
-  background-color: #5692f3;
+  background-color: #74a9ff;
   padding: 10px 30px;
   font-size: 15px;
   cursor: pointer;
   color: #ffffff;
 }
 .activo{
-  background-color: #5692f3;
+  background-color: #74a9ff;
   padding: 10px 30px;
   font-size: 15px;
   color: #ffffff;
